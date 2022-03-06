@@ -1,0 +1,527 @@
+[{
+  "_id": {
+    "$oid": "621fb01c272ebe5b06965847"
+  },
+  "id": 1,
+  "Venta": [
+    {
+      "Producto": "Pizza Jamonera",
+      "Tamaño": "Mediana",
+      "PrecioVenta": 10.9,
+      "PrecioCoste": 3.5,
+      "Unidades": 2,
+      "Extras": {
+        "extra_queso": true,
+        "masa_fina": false,
+        "salsa_texmex": false,
+        "bordes_rellenos": true
+      }
+    },
+    {
+      "Producto": "Cerveza",
+      "Tamaño": "33cl",
+      "PrecioVenta": 2,
+      "PrecioCoste": 0.5,
+      "Unidades": 1,
+      "Extras": {
+        "sin_alcohol": false
+      }
+    },
+    {
+      "Producto": "Alitas de pollo",
+      "Tamaño": "4u",
+      "PrecioVenta": 3.5,
+      "PrecioCoste": 1.6,
+      "Unidades": 1,
+      "Extras": {
+        "salsa": "barbacoa"
+      }
+    }
+  ],
+  "IVA": 0.21,
+  "Cliente": [
+    {
+      "Nombre": "Antonio"
+    },
+    {
+      "Tlf": "584123958"
+    }
+  ],
+  "Vendedor": "Luis Santos",
+  "FechaVenta": {
+    "$date": "2022-01-10T00:00:00Z"
+  },
+  "FormaEntrega": "Recoger"
+},{
+  "_id": {
+    "$oid": "621fb01c272ebe5b06965848"
+  },
+  "id": 2,
+  "Venta": [
+    {
+      "Producto": "Pizza Rodeo",
+      "Tamaño": "familiar",
+      "PrecioVenta": 13.9,
+      "PrecioCoste": 5.5,
+      "Unidades": 1,
+      "Extras": {
+        "extra_queso": false,
+        "masa_fina": false,
+        "salsa_texmex": true,
+        "bordes_rellenos": false
+      }
+    },
+    {
+      "Producto": "Refrescos",
+      "Tamaño": "33cl",
+      "PrecioVenta": 2,
+      "PrecioCoste": 0.6,
+      "Unidades": 3,
+      "Extras": {
+        "sin_azucar": true
+      }
+    },
+    {
+      "Producto": "Helado",
+      "PrecioVenta": 3.5,
+      "PrecioCoste": 1,
+      "Unidades": 2
+    }
+  ],
+  "IVA": 0.21,
+  "Cliente": [
+    {
+      "Nombre": "Tomás"
+    },
+    {
+      "Tlf": "124585236"
+    }
+  ],
+  "Vendedor": "Estrella",
+  "FechaVenta": {
+    "$date": "2022-01-15T00:00:00Z"
+  },
+  "FormaEntrega": "Local"
+},{
+  "_id": {
+    "$oid": "621fb01c272ebe5b06965849"
+  },
+  "id": 3,
+  "Venta": [
+    {
+      "Producto": "Pizza Ohana",
+      "Tamaño": "pequeña",
+      "PrecioVenta": 6.9,
+      "PrecioCoste": 1.5,
+      "Unidades": 6,
+      "Extras": {
+        "extra_queso": true,
+        "masa_fina": true,
+        "salsa_texmex": false,
+        "bordes_rellenos": false
+      }
+    },
+    {
+      "Producto": "Refrescos",
+      "Tamaño": "33cl",
+      "PrecioVenta": 2,
+      "PrecioCoste": 0.5,
+      "Unidades": 6,
+      "Extras": {
+        "sin_cafeina": false
+      }
+    },
+    {
+      "Producto": "Fingers de queso",
+      "Tamaño": "6u",
+      "PrecioVenta": 3.5,
+      "PrecioCoste": 1.8,
+      "Unidades": 2,
+      "Extras": {
+        "salsa": "Salsa Miel&Mostaza"
+      }
+    },
+    {
+      "Producto": "Helado",
+      "PrecioVenta": 3.5,
+      "PrecioCoste": 1,
+      "Unidades": 3
+    }
+  ],
+  "IVA": 0.21,
+  "Cliente": {
+    "Nombre": "Estefanía",
+    "Tlf": "987654321"
+  },
+  "Vendedor": "Steven",
+  "FechaVenta": {
+    "$date": "2022-02-06T00:00:00Z"
+  },
+  "FormaEntrega": "Local"
+},{
+  "_id": {
+    "$oid": "621fb01c272ebe5b0696584a"
+  },
+  "id": 4,
+  "Venta": [
+    {
+      "Producto": "Pizza Cremosa",
+      "Tamaño": "familiar",
+      "PrecioVenta": 13.9,
+      "PrecioCoste": 5.5,
+      "Unidades": 1,
+      "Extras": {
+        "extra_queso": false,
+        "masa_fina": false,
+        "salsa_texmex": true,
+        "bordes_rellenos": false
+      }
+    },
+    {
+      "Producto": "Pizza Llorona",
+      "Tamaño": "mediana",
+      "PrecioVenta": 12.9,
+      "PrecioCoste": 4.5,
+      "Unidades": 1,
+      "Extras": {
+        "extra_queso": true,
+        "masa_fina": true,
+        "salsa_texmex": false,
+        "bordes_rellenos": false
+      }
+    }
+  ],
+  "IVA": 0.21,
+  "Cliente": [
+    {
+      "Nombre": "Laura"
+    },
+    {
+      "Tlf": "412836442"
+    }
+  ],
+  "Vendedor": "Fernando Huerta",
+  "FechaVenta": {
+    "$date": "2022-02-13T00:00:00Z"
+  },
+  "FormaEntrega": "Domicilio"
+},{
+  "_id": {
+    "$oid": "621fb01c272ebe5b0696584b"
+  },
+  "id": 5,
+  "Venta": [
+    {
+      "Producto": "Pizza CheesyFantasy",
+      "Tamaño": "familiar",
+      "PrecioVenta": 15.9,
+      "PrecioCoste": 7.5,
+      "Unidades": 4,
+      "Extras": {
+        "extra_queso": true,
+        "masa_fina": false,
+        "salsa_texmex": false,
+        "bordes_rellenos": true
+      }
+    },
+    {
+      "Producto": "Refrescos",
+      "Tamaño": "33cl",
+      "PrecioVenta": 2,
+      "PrecioCoste": 0.5,
+      "Unidades": 6,
+      "Extras": {
+        "sin_cafeina": true,
+        "sin_azucar": true
+      }
+    },
+    {
+      "Producto": "Fingers de queso",
+      "Tamaño": "12u",
+      "PrecioVenta": 5.5,
+      "PrecioCoste": 3.8,
+      "Unidades": 1,
+      "Extras": {
+        "salsa": "Salsa Agridulce"
+      }
+    },
+    {
+      "Producto": "Alitas de pollo",
+      "Tamaño": "4u",
+      "PrecioVenta": 3.5,
+      "PrecioCoste": 1.6,
+      "Unidades": 1,
+      "Extras": {
+        "salsa": "barbacoa"
+      }
+    }
+  ],
+  "IVA": 0.21,
+  "Cliente": [
+    {
+      "Nombre": "Pablo"
+    },
+    {
+      "Tlf": "601224532"
+    }
+  ],
+  "Vendedor": "Jose Antonio Fuentes",
+  "FechaVenta": {
+    "$date": "2022-01-29T00:00:00Z"
+  },
+  "FormaEntrega": "Local"
+},{
+  "_id": {
+    "$oid": "621fb01c272ebe5b0696584c"
+  },
+  "id": 6,
+  "Venta": [
+    {
+      "Producto": "Pizza Desierta",
+      "Tamaño": "pequeña",
+      "PrecioVenta": 4.9,
+      "PrecioCoste": 1,
+      "Unidades": 1,
+      "Extras": {
+        "extra_queso": false,
+        "masa_fina": false,
+        "salsa_texmex": false,
+        "bordes_rellenos": false
+      }
+    },
+    {
+      "Producto": "Agua",
+      "Tamaño": "50cl",
+      "PrecioVenta": 1.5,
+      "PrecioCoste": 0.2,
+      "Unidades": 1
+    }
+  ],
+  "IVA": 0.21,
+  "Cliente": [
+    {
+      "Nombre": "Victor"
+    },
+    {
+      "Tlf": "754210362"
+    }
+  ],
+  "Vendedor": "Carmina Suárez",
+  "FechaVenta": {
+    "$date": "2022-02-26T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "621fb01c272ebe5b0696584d"
+  },
+  "id": 7,
+  "Venta": [
+    {
+      "Producto": "Pizza Choricera",
+      "Tamaño": "mediana",
+      "PrecioVenta": 9.9,
+      "PrecioCoste": 2.5,
+      "Unidades": 2,
+      "Extras": {
+        "extra_queso": false,
+        "masa_fina": false,
+        "salsa_texmex": true,
+        "bordes_rellenos": true
+      }
+    },
+    {
+      "Producto": "Pizza Salsera",
+      "Tamaño": "mediana",
+      "PrecioVenta": 11.9,
+      "PrecioCoste": 3.5,
+      "Unidades": 2,
+      "Extras": {
+        "extra_queso": false,
+        "masa_fina": false,
+        "salsa_texmex": true,
+        "bordes_rellenos": false
+      }
+    }
+  ],
+  "IVA": 0.21,
+  "Cliente": [
+    {
+      "Nombre": "Adriana"
+    },
+    {
+      "Tlf": "652414783"
+    }
+  ],
+  "Vendedor": "Tomás Redondo",
+  "FechaVenta": {
+    "$date": "2022-02-28T00:00:00Z"
+  },
+  "FormaEntrega": "Recoger"
+},{
+  "_id": {
+    "$oid": "621fb01c272ebe5b0696584e"
+  },
+  "id": 8,
+  "Venta": [
+    {
+      "Producto": "Pizza Hulka",
+      "Tamaño": "pequeña",
+      "PrecioVenta": 7.9,
+      "PrecioCoste": 2.5,
+      "Unidades": 1,
+      "Extras": {
+        "extra_queso": false,
+        "masa_fina": true,
+        "salsa_texmex": false,
+        "bordes_rellenos": true
+      }
+    },
+    {
+      "Producto": "Agua",
+      "Tamaño": "50cl",
+      "PrecioVenta": 1.5,
+      "PrecioCoste": 0.2,
+      "Unidades": 1
+    },
+    {
+      "Producto": "Ensalada",
+      "PrecioVenta": 4,
+      "PrecioCoste": 1.8,
+      "Unidades": 1
+    },
+    {
+      "Producto": "Helado",
+      "PrecioVenta": 3.5,
+      "PrecioCoste": 1,
+      "Unidades": 1
+    }
+  ],
+  "IVA": 0.21,
+  "Cliente": [
+    {
+      "Nombre": "Ana"
+    },
+    {
+      "Tlf": "412531457"
+    }
+  ],
+  "Vendedor": "Jose Antonio Fuentes",
+  "FechaVenta": {
+    "$date": "2022-02-22T00:00:00Z"
+  },
+  "FormaEntrega": "Recoger"
+},{
+  "_id": {
+    "$oid": "621fb01c272ebe5b0696584f"
+  },
+  "id": 9,
+  "Venta": [
+    {
+      "Producto": "Alitas de pollo",
+      "Tamaño": "4u",
+      "PrecioVenta": 3.5,
+      "PrecioCoste": 1.6,
+      "Unidades": 5,
+      "Extras": {
+        "salsa": "picante"
+      }
+    },
+    {
+      "Producto": "Fingers de queso",
+      "Tamaño": "6u",
+      "PrecioVenta": 3.5,
+      "PrecioCoste": 1.8,
+      "Unidades": 5,
+      "Extras": {
+        "salsa": "Salsa SourCream"
+      }
+    },
+    {
+      "Producto": "Cerveza",
+      "Tamaño": "33cl",
+      "PrecioVenta": 0.5,
+      "PrecioCoste": 2,
+      "Unidades": 10,
+      "Extras": {
+        "sin_alcohol": false
+      }
+    }
+  ],
+  "IVA": 0.21,
+  "Cliente": [
+    {
+      "Nombre": "Alberto"
+    },
+    {
+      "Tlf": "652145897"
+    }
+  ],
+  "Vendedor": "Steven",
+  "FechaVenta": {
+    "$date": "2022-01-05T00:00:00Z"
+  },
+  "FormaEntrega": "Local"
+},{
+  "_id": {
+    "$oid": "621fb01c272ebe5b06965850"
+  },
+  "id": 10,
+  "Venta": [
+    {
+      "Producto": "Pizza Mafiosa",
+      "Tamaño": "familiar",
+      "PrecioVenta": 12.9,
+      "PrecioCoste": 4.5,
+      "Unidades": 1,
+      "Extras": {
+        "extra_queso": true,
+        "masa_fina": true,
+        "salsa_texmex": true,
+        "bordes_rellenos": true
+      }
+    },
+    {
+      "Producto": "Pizza Chingona",
+      "Tamaño": "familiar",
+      "PrecioVenta": 15.9,
+      "PrecioCoste": 7.5,
+      "Unidades": 1,
+      "Extras": {
+        "extra_queso": true,
+        "masa_fina": true,
+        "salsa_texmex": true,
+        "bordes_rellenos": true
+      }
+    },
+    {
+      "Producto": "Refrescos",
+      "Tamaño": "33cl",
+      "PrecioVenta": 2,
+      "PrecioCoste": 0.5,
+      "Unidades": 4,
+      "Extras": {
+        "sin_azucar": true,
+        "sin_cafeina": false
+      }
+    },
+    {
+      "Producto": "Helado",
+      "PrecioVenta": 3.5,
+      "PrecioCoste": 1,
+      "Unidades": 4
+    }
+  ],
+  "IVA": 0.21,
+  "Cliente": [
+    {
+      "Nombre": "Elisa"
+    },
+    {
+      "Tlf": "854123455"
+    }
+  ],
+  "Vendedor": "Estrella",
+  "FechaVenta": {
+    "$date": "2022-03-01T00:00:00Z"
+  }
+}]

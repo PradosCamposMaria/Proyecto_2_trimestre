@@ -1,0 +1,226 @@
+[{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e2f6"
+  },
+  "Cliente": {
+    "Nombre": "Antonio"
+  },
+  "Vendedor": "Luis Santos",
+  "FechaVenta": {
+    "$date": "2022-01-10T00:00:00Z"
+  },
+  "FormaEntrega": "Recoger"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e2f7"
+  },
+  "Cliente": {
+    "Tlf": "584123958"
+  },
+  "Vendedor": "Luis Santos",
+  "FechaVenta": {
+    "$date": "2022-01-10T00:00:00Z"
+  },
+  "FormaEntrega": "Recoger"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e2f8"
+  },
+  "Cliente": {
+    "Nombre": "Tomás"
+  },
+  "Vendedor": "Estrella",
+  "FechaVenta": {
+    "$date": "2022-01-15T00:00:00Z"
+  },
+  "FormaEntrega": "Local"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e2f9"
+  },
+  "Cliente": {
+    "Tlf": "124585236"
+  },
+  "Vendedor": "Estrella",
+  "FechaVenta": {
+    "$date": "2022-01-15T00:00:00Z"
+  },
+  "FormaEntrega": "Local"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e2fa"
+  },
+  "Cliente": {
+    "Nombre": "Estefanía",
+    "Tlf": "987654321"
+  },
+  "Vendedor": "Steven",
+  "FechaVenta": {
+    "$date": "2022-02-06T00:00:00Z"
+  },
+  "FormaEntrega": "Local"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e2fb"
+  },
+  "Cliente": {
+    "Nombre": "Laura"
+  },
+  "Vendedor": "Fernando Huerta",
+  "FechaVenta": {
+    "$date": "2022-02-13T00:00:00Z"
+  },
+  "FormaEntrega": "Domicilio"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e2fc"
+  },
+  "Cliente": {
+    "Tlf": "412836442"
+  },
+  "Vendedor": "Fernando Huerta",
+  "FechaVenta": {
+    "$date": "2022-02-13T00:00:00Z"
+  },
+  "FormaEntrega": "Domicilio"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e2fd"
+  },
+  "Cliente": {
+    "Nombre": "Pablo"
+  },
+  "Vendedor": "Jose Antonio Fuentes",
+  "FechaVenta": {
+    "$date": "2022-01-29T00:00:00Z"
+  },
+  "FormaEntrega": "Local"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e2fe"
+  },
+  "Cliente": {
+    "Tlf": "601224532"
+  },
+  "Vendedor": "Jose Antonio Fuentes",
+  "FechaVenta": {
+    "$date": "2022-01-29T00:00:00Z"
+  },
+  "FormaEntrega": "Local"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e2ff"
+  },
+  "Cliente": {
+    "Nombre": "Victor"
+  },
+  "Vendedor": "Carmina Suárez",
+  "FechaVenta": {
+    "$date": "2022-02-26T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e300"
+  },
+  "Cliente": {
+    "Tlf": "754210362"
+  },
+  "Vendedor": "Carmina Suárez",
+  "FechaVenta": {
+    "$date": "2022-02-26T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e301"
+  },
+  "Cliente": {
+    "Nombre": "Adriana"
+  },
+  "Vendedor": "Tomás Redondo",
+  "FechaVenta": {
+    "$date": "2022-02-28T00:00:00Z"
+  },
+  "FormaEntrega": "Recoger"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e302"
+  },
+  "Cliente": {
+    "Tlf": "652414783"
+  },
+  "Vendedor": "Tomás Redondo",
+  "FechaVenta": {
+    "$date": "2022-02-28T00:00:00Z"
+  },
+  "FormaEntrega": "Recoger"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e303"
+  },
+  "Cliente": {
+    "Nombre": "Ana"
+  },
+  "Vendedor": "Jose Antonio Fuentes",
+  "FechaVenta": {
+    "$date": "2022-02-22T00:00:00Z"
+  },
+  "FormaEntrega": "Recoger"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e304"
+  },
+  "Cliente": {
+    "Tlf": "412531457"
+  },
+  "Vendedor": "Jose Antonio Fuentes",
+  "FechaVenta": {
+    "$date": "2022-02-22T00:00:00Z"
+  },
+  "FormaEntrega": "Recoger"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e305"
+  },
+  "Cliente": {
+    "Nombre": "Alberto"
+  },
+  "Vendedor": "Steven",
+  "FechaVenta": {
+    "$date": "2022-01-05T00:00:00Z"
+  },
+  "FormaEntrega": "Local"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e306"
+  },
+  "Cliente": {
+    "Tlf": "652145897"
+  },
+  "Vendedor": "Steven",
+  "FechaVenta": {
+    "$date": "2022-01-05T00:00:00Z"
+  },
+  "FormaEntrega": "Local"
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e307"
+  },
+  "Cliente": {
+    "Nombre": "Elisa"
+  },
+  "Vendedor": "Estrella",
+  "FechaVenta": {
+    "$date": "2022-03-01T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6223e2a9c59fd803ad46e308"
+  },
+  "Cliente": {
+    "Tlf": "854123455"
+  },
+  "Vendedor": "Estrella",
+  "FechaVenta": {
+    "$date": "2022-03-01T00:00:00Z"
+  }
+}]
